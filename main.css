@@ -1,0 +1,433 @@
+/* Core (asosiy) styles */
+body { 
+    font-family: sans-serif;
+ }
+
+ .container {
+    width: 1140px;
+    margin: 0 auto;
+ }
+
+ .to-uppercase {
+    text-transform: uppercase;
+ }
+
+ .clearfix { 
+    clear: both;
+  }
+
+    .section-subtitle {
+     letter-spacing: 2px;
+     font-weight: 500px;
+     margin-bottom: 10px;
+     color: silver;
+     text-transform: uppercase;   
+    }
+
+    .section-title { 
+        margin-top: 5px;
+        font-size: 42px;
+        font-weight: 700px;
+        text-transform: capitalize;
+        color: darkslategray;
+     }
+
+     .blur-line {
+        display: inline-block;
+        margin-left: 5px;
+        width: 80px;
+        height: 4px;
+        background-color: rgba(35, 42, 237, 0.842);
+        filter: blur(4px);
+        border-radius: 4px;
+     }
+
+      .button { 
+        border: none;
+        background-color: blue;
+        color: white;
+        font-weight: 500px;
+        font-size: 14px;
+        padding: 20px 40px;
+        cursor: pointer;
+        border-radius: 5px;
+     }
+
+ /* Header styles part */
+
+.main-header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: white;
+   box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+.main-header__brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand img {
+    width: 64px;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation__item a {
+    color: chocolate;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.main-navigation__item a:hover {
+    color: black;
+}
+
+.main-navigation__item.active a { 
+    color: blueviolet;
+ }
+
+ /*Main section*/
+
+ .main-section {
+    padding: 100px 30px;
+    margin-bottom: 600px; 
+ }
+
+ .main-section__image img {
+    width: 500px; 
+    height: auto; 
+    border-radius: 8px;
+    margin-left: 300px;
+}
+
+ .main-section > div { 
+    width: 50%;
+    float: left;
+  }
+
+.main-section__welcome { 
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: black;
+   }
+
+.main-section__introduction {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    color: darkblue;
+   }
+
+.main-section__position { 
+    color: darkblue;
+    font-size: 24px;
+    font-weight: 300px;
+    margin-bottom: 20px;
+    }
+
+.main-section__social-networks a { 
+    color: silver;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+ }
+
+ .main-section__social-networks a:hover i { 
+    color: blue;
+  }
+
+.main-section__action { 
+        margin-top: 30px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-weight: 500px;
+        font-size: 14px;
+        padding: 20px 40px;
+        cursor: pointer;
+        border-radius: 5px;
+     }
+    
+/* Statistics section
+.statistics__item {
+ padding: 100px;
+ gap: 30px; 
+}
+
+/* .Statistics__item {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.statistics__number {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: blue;
+    margin-left: 25px;
+}
+
+.statistics__title { 
+    font-size: 16px;
+    color: silver;
+    font-weight: 300px;
+} */
+
+ /*About me section*/
+ .about-me { 
+    padding: 100px;
+    margin-bottom: 300px;
+  }
+
+  .about-me > div { 
+    width: 50%;
+    float: left;
+   }
+
+   .about-me__image img { 
+    width: 300px;
+    }
+
+     .about-me__description {
+        font-size: 14px;
+        font-weight: 300px;
+        color: rgb(138, 135, 135);
+        line-height: 27px;
+     }
+
+     .about-me__action { 
+        margin-top: 40px;
+     }
+
+     /*Services section styles*/
+     .services {
+        padding-top: 33px;
+     }
+
+     .service-card {
+        display: inline-block;
+        width: 30%;
+        padding: 70px 40px;
+        background-color: whitesmoke;
+        margin-right: 0%;
+        margin: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+     }
+
+     .services__cards {
+        display: flex;
+        justify-content: center;  
+        align-items: stretch;      
+        gap: 30px;                 
+        flex-wrap: wrap;           
+}
+
+
+     .service-card__title {
+        color: rgba(0, 0, 0, 0.252);
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+     }
+
+     .service-card__description {
+        font-size: 14px;
+        line-height: 27px;
+        font-weight: 300px;
+        color: silver;
+     }
+
+     .service-card__link {
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: black;
+        text-decoration: none;
+     }
+
+     .service-card-2 {
+        display: inline-block;
+        width: 30%;
+        padding: 70px 40px;
+        background-color: whitesmoke;
+        margin-right: 0%;
+        margin: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+     }
+
+     .service-card-3 {
+        display: inline-block;
+        width: 30%;
+        padding: 70px 40px;
+        background-color: whitesmoke;
+        margin-right: 0%;
+        margin: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+     }
+
+     .service-card:hover {
+      background-color: rgb(107, 107, 234);
+     }
+
+        .service-card-2:hover {
+      background-color: rgb(107, 107, 234);
+     }
+
+      .service-card-2:hover {
+      color: #ffffff;
+     }
+
+        .service-card-3:hover {
+      background-color: rgb(107, 107, 234);
+     }
+
+      .service-card-3:hover {
+      color: #ffffff;
+     }
+
+     .service-card:hover {
+      color: #ffffff;
+     }
+
+     .service-card__link {
+      color: rgb(35, 18, 18);
+     }
+
+       /*Clients section styles*/
+     .clients {
+      padding-top: 100px;
+       margin-left: 100px;
+     }
+
+    .client-item > div {
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+    }
+
+    .client-item__image img {
+      width: 50%;
+      margin-left: 50px;
+      margin-left: 200px;
+    }
+
+    .client-item__name {
+      font-size: 20px;
+      margin-bottom: px;
+      margin-left: 200px;
+    }
+
+    .client-item__position {
+      font-size: 14px;
+      font-weight: 300px;
+      color: rgb(120, 119, 119);
+      margin-left: 200px;
+    }
+
+    .client-item__review {
+      font-size: 14px;
+      line-height: 27px;
+      font-weight: 300;
+      color: rgb(120, 119, 119);
+      margin-left: 200px;
+    }
+
+    .client-item__rate {
+      color: gold;
+      margin-left: 200px;
+    }
+
+    /* Portfolio section qismi */
+    .portfolio {
+      padding: 100px 0; 
+      margin-top: 30px;
+      margin-left: 100px;
+    }
+
+    .section-portfolio__items {
+      position: relative;
+      margin-top: 50px;
+    } 
+
+    .portfolio-item {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      width: 50%;  
+    }
+
+    .portfolio-item-2 {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    .portfolio-item-3 {
+      position: absolute;
+      top: 322px;
+      right: 0;
+    }
+
+    .portfolio-item__image {
+      width: 70%;
+    }
+
+    .portfolio-item__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    background-color: rgba(19,69,230,0.9);
+    visibility: hidden;
+}
+
+.portfolio-item__info {
+   position: absolute;
+   bottom: 44px;
+   left: 80px;
+   color: white;
+   visibility: hidden;
+}
+
+.portfolio-item__info a {
+   color: white;
+   text-decoration: none;
+}
+
+.portfolio-item:hover .portfolio-item__overlay {
+   visibility: visible;
+   top: 20px;
+   left: 20px;
+}
+
+.portfolio-item:hover .portfolio-item__info {
+   visibility: visible;
+   bottom: 24px;
+   left: 60px;
+}

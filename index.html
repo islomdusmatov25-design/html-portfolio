@@ -1,35 +1,314 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
-
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Hello</title>
-</head>
-<body>
-    <h1>Islom Yu's Portfolio</h1>
-    <h2>I am a web developer</h2>
-    <hr />
-    <h3> <a href="public/movie-ranking.html">Movie Ranking Project</a></h3>
-    <img src="assets/images/11111.png" height="200" alt="movie ranking"> 
-    <br />
-    <h3> <a href="public/birthday-invite.html">Birthday invite project</a></h3>
-    <img src="assets/images/222.png" height="200" alt="birthday"/>
-    <hr />
-    <a href="public/about.html">About me</a>
-    <a href="public/contact.html">contact me</a>
-</body>
+    <head>
+        <title>Parfumes</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!--Header section boshlanishi-->
+         <header class="main-header">
+             <div class="container">
+                 <div class="main-header__brand">
+                <a href="index.html">
+                    <img src="pictures/logo.jpeg" alt="logo">
+                </a>
+                 </div>
+                 <nav class="main-navigation">
+                <ul class="main-navigation__items">
+                    <li class="main-navigation__item avtive">
+                        <a href="#">Asosiy</a>
+                    </li>
+                    <li  class="main-navigation__item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Xizmatlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Blogs</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Sheriklarim</a>
+                    </li>
+                </ul>
+                 </nav>
+             </div> 
+         </header
+        <!-- Header section tugadi -->
+
+        <!--Main section boshlanishi-->
+        <div class="container">
+            <section id="main-section" class="main-section">
+           <div class="main-section__info">
+               <h4 class="main-section__welcome to-uppercase">Hello everyone!</h4>
+              <h1 class="main-section__introduction to-uppercase">I am Islom jon</h1>
+              <h3 class="main-section__position to-uppercase">Senior programmer</h3>
+              <div class="main-section__social-networks">
+                  <a href="https://t.me/islomdusmatov">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/islom-dusmatov-32796420a/">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.instagram.com/idm_0915?igsh=MW9xNmI2djNkbHpqcA%3D%3D&utm_source=qr">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a> 
+              </div>
+              <button typo="button" class="main-section__action to-uppercase">
+                 See my work
+              </button>
+           </div>
+           <div class="main-section__image">
+            <img src="pictures/ozim 1.png" alt="my mage">
+           </div>
+             </section>
+             <div class="clearfix"></div>
+        </div>
+        <!--/Main section tugashi-->
+
+        <!-- Statistics sction
+        <div class="container">
+            <section id="Statistics__item">
+                <h3 class="statistics__number">
+                    200k+
+                </h3>
+                <p class="statistics__title">
+                    Happy Customers
+                </p>
+            </section>
+        </div>
+          <div class="container">
+            <section id="Statistics__item">
+                <h3 class="statistics__number">
+                    900+
+                </h3>
+                <p class="statistics__title">
+                    Various Products
+                </p>
+            </section>
+          </div>
+          <div class="container">
+            <section id="Statistics__item">
+                <h3 class="statistics__number">
+                    9.5/10
+                </h3>
+                <p class="statistics__title">
+                    Average Rating
+                </p>
+            </section>
+          </div> -->
+
+        <!--About me Sction-->
+        <div class="container">
+             <section id="about me" class="about-me">
+            <div class="about-me__image">
+                <img src="pictures/ozim 2.jpeg" alt="about me image">
+            </div>
+            <div class="about-me__info">
+                <h5 class="section-subtitle">
+                    About me
+                    <span class="blur-line"></span>
+                </h5>
+                <h3 class="section-title">
+                    Senior programmer
+                </h3>
+                <p class="about-me__description">
+                    I am a senior programmer with extensive experience in developing efficient, scalable, and user-focused software solutions. My expertise spans full-stack development, system optimization, and project leadership across diverse technologies. I’m passionate about writing clean, maintainable code and transforming complex ideas into practical, high-quality applications.
+                </p>
+                <button type="button" class="button to-uppercase about-me__action">
+                    go to my CV
+                </button>
+            </div>
+             </section>
+        <div class="clearfix"></div>
+        </div>
+        <!--/About me section tugashi-->
+
+        <!--Services section-->
+        <section id="services" class="services">
+           <h5 class="section-subtitle">
+            My services
+            <span class="blur-line"></span>
+           </h5>
+           <h2 class="section-title">
+            What Services <br> We Offer For You <br>
+           </h2>
+           <div class="services__cards">
+               <div class="service-card">
+                 <img class="service-card__icon" src="./pictures/1.jpeg" alt="Service 1">
+                 <h5 class="service-title">Web Development</h5>
+                 <p class="service_card__description">
+                    I create fast, responsive, and modern websites using HTML, CSS, JavaScript, and React. Clean design and smooth performance for every device.
+                 </p>
+                 <a href="#" class="service-card__link">
+                    Learn more
+                 </a>
+               </div>
+               <div class="service-card-2">
+                 <img class="service-card__icon" src="./pictures/2.jpeg" alt="Service 1">
+                 <h5 class="service-title">Front-End Design & UI/UX</h5>
+                 <p class="service_card__description">
+                    I design user-friendly, attractive interfaces with Figma and Tailwind. Focused on clarity, simplicity, and great user experience.
+                 </p>
+                 <a href="#" class="service-card__link">
+                    Learn more
+                 </a>
+               </div>
+               <div class="service-card-3">
+                 <img class="service-card__icon" src="/pictures/3.jpeg" alt="Service 1">
+                 <h5 class="service-title">Full Stack Web Applications</h5>
+                 <p class="service_card__description">
+                    I build secure, dynamic web apps with React, Node.js, and MongoDB — from backend setup to full deployment.
+                 </p>
+                 <a href="#" class="service-card__link">
+                    Learn more
+                 </a>
+               </div>
+           </div>
+        </section>
+        <!--/Service section tugashi-->
+
+        <!--Clients section-->
+          <div class="contaire">
+             <section id="Clients" class="clients">
+            <h5 class="section-subtitle">
+                My Customers
+                <span class="blur-line"></span>
+            </h5>
+            <h2 class="class-section__title">
+                Dear My Customers <br>
+                about me
+            </h2>
+            <div class="client-items">
+                <div class="client-item">
+                    <div class="client-item__image">
+                        <img src="/pictures/beeline.jpeg" alt="client image">
+                    </div>
+                    <div class="client-item__info">
+                        <h3 class="client-item__name">
+                            Beeline Company
+                        </h3>
+                        <p class="client-item__position">
+                            IT Department
+                        </p>
+                        <p class="client-item__review">
+                            Reliable, skilled, and creative — highly recommend for <br> anyone needing a modern and functional website.
+                        </p>
+                         <div class="client-item__rate">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                         </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          </section>
+          <div class="clearfix"></div>
+        <!--/Clients section tugashi-->
+
+        <!--Portfolio section-->
+        <!-- bu yerda cinteren div bor edi -->
+            <section id="portfolio" class="portfolio">
+                <div class="section-subtitle">
+                    My jobs
+                    <span class="blur-line"></span>
+                </div>
+                <div class="section-title">
+                    See my <br> 
+                    latest projects
+                </div>
+                <div class="section-portfolio__items">
+                    <div class="portfolio-item">
+                        <img src="pictures/futbolka.jpg" alt="Portfolio image 1" class="portfolio-item__image">
+                        <div class="portfolio-item__overlay"></div>
+                        <div class="portfolio-item__info">
+                            <h4>
+                                <a href="#">Portfolip item 1</a>
+                            </h4>
+                            <p>
+                                About my work
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="portfolio-item portfolio-item-2">
+                        <img src="pictures/soat.png" alt="Portfolio image 2" class="portfolio-item__image">
+                        <div class="portfolio-item__overlay"></div>
+                        <div class="portfolio-item__info">
+                            <h4>
+                                <a href="#">Portfolip item 2</a>
+                            </h4>
+                            <p>
+                                About my work
+                            </p>
+                        </div>
+                    </div>
+                      <div class="portfolio-item portfolio-item-3">
+                        <img src="pictures/qalam.png" alt="Portfolio image 3" class="portfolio-item__image">
+                        <div class="portfolio-item__overlay"></div>
+                        <div class="portfolio-item__info">
+                            <h4>
+                                <a href="#">Portfolip item 3</a>
+                            </h4>
+                            <p>
+                                About my work
+                            </p>
+                        </div>
+                    </div>
+            </section>
+        <!-- bu yerda cinteren div bor edi -->
+        <!--/Portfolio section tugashi-->
+
+        <!--Blog section-->
+        <section id="blog">
+            <h1>Blog</h1>
+        </section>
+        <!--/Blog section tugashi-->
+
+        <!--Partner section-->
+        <section id="pertners">
+            <h1>Sheriklarim</h1>
+        </section>
+        <!--/Partner section tugashi-->
+
+        <!--Footer section-->
+        <footer>
+             <nav>
+                <ul>
+                    <li>
+                        <a href="#">Asosiy</a>
+                    </li>
+                    <li>
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li>
+                        <a href="#">Xizmatlar</a>
+                    </li>
+                    <li>
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="#">Sheriklarim</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <!--Footer section tugashi-->
+    </body>
 </html>
